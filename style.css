@@ -1,0 +1,352 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    gap: 22px;
+    background-color: #F5F5F5;
+    grid-template-columns: 170px 170px 170px 170px;
+    grid-template-rows: 220px 170px 170px;
+}
+
+.container .item{
+    border-radius: 10px;
+}
+
+
+.one{
+    background-color: #FAEEE2;
+    height: 290px;
+}
+
+.one h1{
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.one img{
+    margin-left: 20px;
+}
+
+
+.one span{
+    color: hsl(256, 67%, 59%);;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(256, 67%, 59%);
+    grid-column: span 2;
+}
+
+.two h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+}
+
+.two span{
+    color: hsl(39, 100%, 71%);
+    font-size: 40px;
+}
+
+.two i{
+    font-size: 40px;
+}
+
+.two img{
+    margin: auto;
+}
+
+.two p{
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DCD1FC;
+    grid-row: span 2;
+}
+
+.three h1{
+    margin-left: 1rem;
+}
+
+.three img{
+    margin-left: 1px;    
+}
+
+.three p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-left: 1rem;  
+}
+
+.four{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(39, 100%, 71%);
+    margin-top: 70px;
+    grid-row: span 2;
+}
+
+.four h1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.four img{
+    margin-left: 15px;
+}
+
+
+.five{
+    background-color: #FFFFFF;
+}
+
+.five img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.five h1{
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+.six{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(39, 100%, 71%);   
+}
+
+.six h1{
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+.six img{
+    margin-left: 15px;
+}
+
+.seven{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.seven h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    margin-left: 14px;
+}
+
+.seven span{
+    font-size: 13px;
+    font-weight: 500; 
+    margin-left: 5px; 
+    position: absolute;
+}
+
+.seven img{
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.eight{
+    display: flex;
+    align-items: center;
+    background-color: hsl(256, 67%, 59%);
+    grid-column: span 2;
+}
+
+.eight img{
+    margin-left: 0.5rem;
+}
+
+.eight h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+@media (max-width:750px) {
+    
+    .container{
+        display: block;
+    }
+
+    .one{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .one h1, .one i{
+        font-size: 30px;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-left: 10px;
+    }
+
+    .one img{
+        margin-left: 30px;
+        height: 85px; 
+        width: 160px; 
+    }
+
+    .two{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .two h1{
+        padding-top: 50px;
+        font-size: 43px;
+    }
+
+    .two img{
+        margin: auto;
+    }
+
+    .two p{
+        font-size: 20px;
+    }
+
+    .three{
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .three h1{
+      font-size: 1.4rem;
+    }
+
+    .three p{
+        font-size: 30px;
+        padding: 0px 20px;
+        font-weight: 300;
+    }
+
+    .three img{
+        height: 300px;
+        width: 320px;
+    }
+
+    .four{
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .four img{
+        margin-left: 20px;
+        height: 230px;
+        width: 250px;
+    }
+
+    .five{
+        margin-top: 20px;
+        height: 150px;
+    }
+
+    .five img{
+        width: 100%;
+        height: 70px;
+        margin-bottom: 5px;
+    }
+
+    .six{
+        margin-top: 20px;
+        height: 250px;
+    }
+
+    .six h1{
+        font-size: 1.5rem;
+        line-height: 1.3rem;
+    }
+
+    .six img{
+        width: 10rem;
+        height: 20rem;
+    }
+
+    .seven{
+        margin-top: 20px;
+        height: 250px;
+    }
+
+    .seven h1{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .seven span{
+        margin-top: 0.2rem;
+        font-size: 1.2rem;
+    }
+
+    .seven img{
+        margin-top: 1.5rem;
+        width: 60%;
+    }
+
+    .eight{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 350px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eight img{
+        margin-top: 1rem;
+        height: 190px;
+    }
+
+    .eight h1{
+       margin: 2rem 2rem 0;
+    }
+
+}
